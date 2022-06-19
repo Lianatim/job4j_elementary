@@ -29,9 +29,9 @@ public class PointTest {
     }
 
     @Test
-    public void when10to24then2() {
-        double expected = 2;
-        int x1 = 1;
+    public void when20to24then4() {
+        double expected = 4;
+        int x1 = 2;
         int y1 = 0;
         int x2 = 2;
         int y2 = 4;
