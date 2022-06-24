@@ -1,8 +1,8 @@
-package ru.job4j.loop;
+package ru.job4j.array;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.loop.FindLoop;
+import ru.job4j.array.FindLoop;
 
 public class FindLoopTest {
 
