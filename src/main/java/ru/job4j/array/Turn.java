@@ -11,8 +11,4 @@ public class Turn {
         }
         return array;
     }
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(back(new int[]{2, 5, 7, 4})));
-    }
 }
