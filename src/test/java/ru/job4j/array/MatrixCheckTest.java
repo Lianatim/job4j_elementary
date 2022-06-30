@@ -102,6 +102,19 @@ public class MatrixCheckTest {
     }
 
     @Test
+    public void whenDataLeftMonoByTrueThenTrue() {
+        char[][] input = {
+                {' ', 'X', ' ', ' ', ' '},
+                {' ', 'X', ' ', ' ', ' '},
+                {' ', 'X', ' ', ' ', ' '},
+                {' ', 'X', ' ', ' ', ' '},
+                {' ', 'X', ' ', ' ', ' '},
+        };
+        boolean result = MatrixCheck.isWin(input);
+        Assert.assertTrue(result);
+    }
+
+    @Test
     public void whenDataNotMonoByTrueThenFalse() {
         char[][] input = {
                 {' ', ' ', 'X', ' ', ' '},
